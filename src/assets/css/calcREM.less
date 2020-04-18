@@ -1,0 +1,22 @@
+////主流的设备尺寸
+//@deviceSize:750px,720px,640px,540px,480px,424px,414px,400px,384px,375px,360px,320px;
+//
+////设计稿尺寸
+//@psdWidth: 320px;
+//
+////预设基准值
+//@baseFontSize: 100px;
+//
+////设备尺寸长度
+//@len:length(@deviceSize);
+//
+//@navBarBg:#fabc00;
+//.calcREM(@index) when(@index > 0) {
+//  @media (min-width: extract(@deviceSize,@index)){
+//    html {
+//      font-size: @baseFontSize/@psdWidth * extract(@deviceSize,@index);
+//    }
+//  }
+//  .calcREM(@index - 1);
+//}
+//.calcREM(@len);
